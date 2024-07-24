@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tiia\\source\\repos\\FestariApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07035A19-0959-48AD-B63B-DE59427084E0}|FestariApp.csproj|c:\\users\\tiia\\source\\repos\\festariapp\\wwwroot\\css\\festariapp.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{07035A19-0959-48AD-B63B-DE59427084E0}|FestariApp.csproj|solutionrelative:wwwroot\\css\\festariapp.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07035A19-0959-48AD-B63B-DE59427084E0}|FestariApp.csproj|c:\\users\\tiia\\source\\repos\\festariapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07035A19-0959-48AD-B63B-DE59427084E0}|FestariApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07035A19-0959-48AD-B63B-DE59427084E0}|FestariApp.csproj|c:\\users\\tiia\\source\\repos\\festariapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07035A19-0959-48AD-B63B-DE59427084E0}|FestariApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tiia\\source\\repos\\FestariApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tiia\\source\\repos\\FestariApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAC3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T09:50:54.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FestariApp.css",
+              "DocumentMoniker": "C:\\Users\\Tiia\\source\\repos\\FestariApp\\wwwroot\\css\\FestariApp.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\FestariApp.css",
+              "ToolTip": "C:\\Users\\Tiia\\source\\repos\\FestariApp\\wwwroot\\css\\FestariApp.css",
+              "RelativeToolTip": "wwwroot\\css\\FestariApp.css",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-22T18:51:51.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tiia\\source\\repos\\FestariApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Tiia\\source\\repos\\FestariApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T17:40:55.019Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

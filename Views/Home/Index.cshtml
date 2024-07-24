@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <h2 class="text-center">Festari Festivaali</h2>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <p>
+                Sovelluksessa tulee käyttää jotain UI-kirjastoa, kuten bootstrap tai vastaava.&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color: lightgreen;">Check</strong><br><br>
+                Käyttäkää myös aikaa sovelluksen ulkonäköön, eli sivuston tulee näyttää hyvältä ja miettikää myös sivuston käytettävyyttä.<br><br>
+                Sovelluksessa tulee olla seuraavat ominaisuudet:<br><br>
+                - Etusivu mistä löytyy festivaaliesittely ja linkit kaikkiin sovelluksen toimintoihin.&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color: lightgreen;">Check</strong><br><br>
+                - Sivustolla tulee näkyä kello kuinka monta tuntia on festivaalin alkuun.&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color: lightgreen;">Check</strong><br><br>
+                - Sivustolla tulee olla kuvagalleria edellisistä festivaaleista.<br><br>
+                - Sivustolla tulee näkyä yhteystiedot ja kartta.&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color: lightgreen;">Check</strong>
+            </p>
+        </div>
+        <div class="col-4">
+            <img src="https://i.postimg.cc/WzkFfhrg/festari.png" alt="logo" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="full-width-section parallax" style="background-image: url('https://images.unsplash.com/photo-1693642987959-2adc29fb8a8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+    <h2 class="text-center text-white">Lähtölaskenta Festariin</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 mx-auto">
+                <!-- Countdown -->
+                <div class="rounded bg-gradient-1 text-white shadow text-center mb-5" style="padding: 2rem;">
+                    <div id="countdown-timer" class="countdown d-flex justify-content-center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="full-width-section parallax" style="background-image: url('https://images.unsplash.com/photo-1702540565661-660f3cea1b80?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+
+    <h2 class="text-center">Näin löydät perille</h2>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30458.415063496843!2d27.070038!3d61.502056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46900cfcebca543f%3A0x318de0d6af0eea65!2sKosmos%20Festival!5e0!3m2!1sen!2sus!4v1721739661633!5m2!1sen!2sus" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.rawgit.com/hilios/jQuery.countdown/2.2.0/dist/jquery.countdown.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#countdown-timer').countdown('2024/12/31', function (event) {
+            $(this).html(event.strftime(
+                '<div class="countdown-item"><span>%D</span><p>päivää</p></div>' +
+                '<div class="countdown-item"><span>%H</span><p>tuntia</p></div>' +
+                '<div class="countdown-item"><span>%M</span><p>minuuttia</p></div>' +
+                '<div class="countdown-item"><span>%S</span><p>sekuntia</p></div>'
+            ));
+        });
+    });
+</script>

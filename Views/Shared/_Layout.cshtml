@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - My ASP.NET Core Application</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/FestariApp.css" />
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://i.postimg.cc/mDTyJKXy/header-logo.png" alt="logo" class="img-fluid logo">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav w-100 d-flex justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Program">Ohjelma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Tickets">Osta lippuja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="PastFestivals">Edelliset festarit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Discussion">Keskustelu</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-primary" type="button" onclick="window.location.href='@Url.Action("MyPages", "Home")'">
+                            KIRJAUDU
+                        </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main content with full-width class -->
+    <div class="full-width-content">
+        @RenderBody()
+    </div>
+
+    <footer class="mt-auto">
+        <div class="container py-4">
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-md-4 text-start">
+                    <h5> Yhteystiedot</h5>
+                    <p>info@festari.net <br> Raitinpurontie 135 <br> 52510 Ristiina, Mikkeli <br> Finland</p>
+                </div>
+                <!-- Center Column -->
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <img src="https://i.postimg.cc/rmQKp7Xn/kallo.png" alt="logo" class="img-fluid logo">
+                    <div class="mt-auto">
+                        <p>&copy; 2024 - Festari</p>
+                    </div>
+                </div>
+                <!-- Right Column-->
+                <div class="col-md-4 text-end">
+                    <ul class="list-unstyled">
+                        <li><a href="@Url.Action("Index", "Home")">Etusivu</a></li>
+                        <li><a href="@Url.Action("Program", "Home")">Ohjelma</a></li>
+                        <li><a href="@Url.Action("Tickets", "Home")">Osta lippuja</a></li>
+                        <li><a href="@Url.Action("PastFestivals", "Home")">Edelliset festarit</a></li>
+                        <li><a href="@Url.Action("Discussion", "Home")">Keskustelu</a></li>
+                        <li><a href="@Url.Action("Discussion", "Home")">KIRJAUDU</a></li>
+                        
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black; /* Black background */
+    color: white; /* Set default text color to ensure readability on a black background */
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 2rem;
+    
+}
+
+/* Navbar link styling */
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #D9308A;
+        text-decoration: underline;
+    }
+
+.navbar {
+    padding-top: 1rem;
+    background-color: #1e002a;
+}
+
+.navbar-nav {
+    margin-bottom: -3rem;
+}
+
+.btn-primary {
+    background-color: #D9308A;
+    border-color: transparent;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+    .btn-primary:hover {
+        color: #D9308A;
+        background-color: white;
+        border-color: #D9308A;
+    }
+
+    .container {
+    padding: 3rem;
+}
+
+    /* Full-width content styling */
+    .full-width-content {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.full-width-section {
+    position: relative;
+    width: 100vw; /* Ensure the section spans the full width of the viewport */
+    margin-left: calc(-50vw + 50%); /* Center the section horizontally */
+    padding: 2rem; /* Adjust as needed for the desired space */
+    color: white; /* Ensure text color is white for readability */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+    /* Footer styling */
+footer {
+    background-color: #1e002a;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            color: #D9308A;
+            text-decoration: underline;
+        }
+
+/* Logo styling */
+img.img-fluid.logo {
+    max-width: 18rem;
+    height: auto;
+}
+
+/* Navigation items styling */
+.navbar-nav {
+    flex: 1;
+    justify-content: space-around;
+}
+
+/* Countdown container styling */
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+/* Countdown item styling */
+.countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .countdown-item span {
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        font-size: 3.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .countdown-item p {
+        margin: 0;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+    }
+
+/*Background gradient for the countdown container */
+.bg-gradient-1 {
+    background: #D9308A;
+    background: -webkit-linear-gradient(to right, #D9308A, #9B78F2);
+    background: linear-gradient(to right, #D9308A, #9B78F2);
+}
+
+/*Rounded corners for the countdown container */
+.rounded {
+    border-radius: 8rem !important;
+}
